@@ -1,0 +1,4 @@
+
+export default {
+    UPDATE_WARN_MESSAGE:'UPDATE_WARN_MESSAGE'
+}

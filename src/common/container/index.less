@@ -1,0 +1,207 @@
+.ant-layout-sider-collapsed .anticon {  // 放在.github前面原因猜想是渲染。
+  font-size: 20px;
+}
+
+.containAll {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    .github {
+        position: absolute;
+        top: 20px;
+        left: 14px;
+        font-size: 36px;
+        animation: App-logo-spin infinite 20s linear;
+    }
+    .author {
+        position: absolute;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: "Microsoft YaHei","SimHei";
+        line-height: 120px;
+        width:100%;
+        text-align: center;
+        background: #008669;
+        color: #ffffff;
+    }
+    .white {
+        color: white
+    }
+    .menu {
+        height: 100%;
+       /* padding-top: 120px;*/
+    }
+    .switch {
+        position: absolute;
+        bottom: 4%;
+        right: 5%;
+    }
+}
+
+.ant-layout-sider-trigger {
+    display: none;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.ant-layout-sider-collapsed .nav-text {
+  display: none;
+}
+
+.ant-menu-submenu-vertical > .ant-menu-submenu-title:after { // 对缩放时的menu样式进行处理
+    display: none;
+}
+
+.ant-menu-submenu-vertical .ant-menu-submenu-title span span {
+    display: none;
+}
+
+.ant-layout-sider-collapsed .author {
+    display: none;
+}
+.ant-layout-sider-has-trigger{
+    padding-bottom: 0px !important;
+}
+
+.ant-menu-dark .ant-menu-inline.ant-menu-sub{
+    background: #e6f1f0 !important;
+}
+
+.ant-menu-dark .ant-menu-item, .ant-menu-dark .ant-menu-item-group-title, .ant-menu-dark .ant-menu-item > a{
+    color: #000000 !important;
+}
+.containAll .ant-layout-sider{
+    background-color: #e2f0ee !important;
+}
+.containAll .ant-menu-submenu-title{
+    background: #008669;
+}
+
+.ant-menu-vertical .ant-menu-item, .ant-menu-vertical-left .ant-menu-item, .ant-menu-vertical-right .ant-menu-item, .ant-menu-inline .ant-menu-item, .ant-menu-vertical .ant-menu-submenu-title, .ant-menu-vertical-left .ant-menu-submenu-title, .ant-menu-vertical-right .ant-menu-submenu-title, .ant-menu-inline .ant-menu-submenu-title{
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+.containAll .ant-menu{
+    color: #ffffff !important;
+}
+.menu-img{
+    width:200px;
+    height: 40px;
+}
+.leftmenu-new{
+    flex: 0px !important;
+    max-width: 230px !important;
+    min-width: 230px !important;
+    width: 230px !important;
+}
+.ant-menu-item-selected{
+    height: 60px !important;
+    font-weight: bold;
+}
+.menuitem-css{
+    padding: 5px !important;
+}
+.homemenu-css{
+    padding: 5px !important;
+    height: 50px !important;
+}
+.menu-text{
+    margin-top: -40px;
+    margin-left: 50px;
+    color: #ffffff;
+    font-size: larger;
+}
+.ant-menu-submenu-arrow{
+    display: none;
+}
+.ant-menu-inline .ant-menu-submenu-title{
+    padding: 0px !important;
+    background-color: #e6f1f0 !important;
+}
+.child-menu{
+    width: 130px !important;
+    padding: 0px !important;
+    margin-left: 40px !important;
+}
+.child-menu-item{
+    height: 37px;
+    border-top: 1px solid #126149;
+}
+.ant-layout-sider-children ul{
+    background-color: #e2f0ee !important;
+}
+.ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after{
+    border-right:none !important;
+}
+::selection
+{
+    color:#f58b52 !important;
+}
+.ant-menu-item-selected > a, .ant-menu-item-selected > a:hover{
+    color:#f58b52 !important;
+}
+.ant-menu-item > a:hover{
+    color:#868383 !important;
+}
+.ant-menu-submenu-open ul{
+    width: 190px;
+    border:1px solid #789b92 !important;
+}
+.child-bor{
+    border-top: 1px dashed #789b92;
+}
+.ant-menu-submenu ul .ant-menu-item-selected{
+    height:40px !important;
+    background-color: #e2f0ee !important;
+}
+#sceneManagerDiv .ant-collapse-item-active .ant-collapse-header{
+    background:#f58b52 !important;
+    border-radius:0px !important;
+}
+#sceneManagerDiv .ant-collapse-item .ant-collapse-header:hover{
+    background:#f58b52 !important;
+    border-radius:0px !important;
+}
+
+#sceneManagerDiv .alarmTable .ant-collapse-header{
+    background: #ff9900 !important;
+    border-radius:0px !important;
+}
+#sceneManagerDiv .ant-collapse-item:last-child > .ant-collapse-content{
+    border-radius:0px !important;
+}
+
+#sceneManagerDiv.ant-table-tbody > tr > td {
+    text-align: center;
+}
+#sceneManagerDiv .ant-table-bordered .ant-table-thead > tr > th, #sceneManagerDiv .ant-table-bordered .ant-table-tbody > tr > td{
+    text-align: center;
+}
+.sceneSetUpDiv{
+    border: 1px solid #cccccc;
+    padding: 15px 15px 15px 15px;
+    min-height: 475px;
+}
+.ant-breadcrumb{
+    font-size: 18px !important;
+    line-height: 2 !important;
+}
+.ant-breadcrumb > span:last-child{
+    color: black !important;
+}
+.ant-table-thead > tr > th{
+    background: rgb(228, 240, 236) !important;
+    color: rgb(147,145,146);
+}
+
+.menu .ant-menu-submenu-active .menu-text{
+    color:#f58b52 !important;
+}
+.menu .ant-menu-item-active .nav-text{
+    color:#f58b52 !important;
+}
