@@ -65,7 +65,7 @@
     "postcss-flexbugs-fixes": "3.0.0",
     "postcss-loader": "1.2.2",
     "promise": "7.1.1",
-    "react-dev-utils": "^3.0.0",
+    "react-dev-utils": "^11.0.4",
     "react-error-overlay": "^1.0.7",
     "react-svg": "^10.0.13",
     "style-loader": "0.13.1",
